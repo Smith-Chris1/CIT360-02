@@ -49,14 +49,24 @@ function myFunction(response) {
         var sub_key = j;
         var sub_val = key[j];
         console.log(sub_key);
-        }
         out += "<tr><td>" +
-        arr[i].firstName +
+            sub_key + "<tr><td>" +
+        arr[i].sub_key +
         "</td><td>" +
-        arr[i].lastName +
+            sub_key + "<tr><td>" +
+        arr[i].sub_key +
         "</td><td>" +
-        arr[i].email +
+            sub_key + "<tr><td>" +
+        arr[i].sub_key +
         "</td></tr>";
+        }
+        // out += "<tr><td>" +
+        // arr[i].firstName +
+        // "</td><td>" +
+        // arr[i].lastName +
+        // "</td><td>" +
+        // arr[i].email +
+        // "</td></tr>";
     }
     out += "</table>";
     document.getElementById("id01").innerHTML = out;
