@@ -41,10 +41,10 @@ xmlhttp.send();
 function myFunction(response) {
     var arr = JSON.parse(response);
     var i;
-    var out = "<table>";
-    "<tr>Key<td>"
-    "<tr>Value<td>"    
+    var out = "<table>"; 
     for(i = 0; i < arr.length; i++) {
+        var key = i
+        console.log(key)
         out += "<tr><td>" +
         arr[i].firstName +
         "</td><td>" +
