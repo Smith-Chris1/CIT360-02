@@ -1,22 +1,22 @@
 [
 {
-"firstName": "Justin",
-"lastName": "Fryar",
-"email": "fryajust@gmail.com"
+"firstName": "Julias",
+"lastName": "Ceasar",
+"email": "js@gmail.com"
 },
 {
-"firstName": "Marina", 
-"lastName": "Haibullina",
-"email": "mkinezumi@gmail.com"
+"address": "555 n 333 e", 
+"city": "Springfield",
+"state": "Any State",
+"zip": "86677"
 },
 {
-"firstName": "Casey", 
-"lastName": "Heyrend",
-"email": "caseyheyrend.byui8@gmail.com"
+"bDay": "5/5/43", 
+"weekday": "Tuesday"
 },
 {
-"firstName": "Chris", 
-"lastName": "Smith",
-"email": "christopher.erick.smith@gmail.com"
+"tod": "9:23pm MST", 
+"UTC": "UTC Time + timezone offset",
+"sunrise": "Sunrise time"
 }
 ]
