@@ -43,8 +43,13 @@ function myFunction(response) {
     var i;
     var out = "<table>"; 
     for(i = 0; i < arr.length; i++) {
-        var key = i
+        var key = arr[i]
         console.log(arr[i])
+        for(var j in key){
+        var sub_key = j;
+        var sub_val = val[j];
+        console.log(sub_key);
+        }
         out += "<tr><td>" +
         arr[i].firstName +
         "</td><td>" +
