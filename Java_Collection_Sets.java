@@ -6,9 +6,25 @@ import java.util.Set;
 public class Java_Collection_Sets {
 
 	public static void main(String[] args) {
+System.out.println("\f");
+		Map mapA = new HashMap();
+
+		mapA.put("Europe", "Denmark");
+		mapA.put("North America", "United States");
+		mapA.put("Asia", "South Korea");
+		mapA.put("Africa", "Egypt");
+		mapA.put("South America", "Bolivia");
+		mapA.put("Australia", "Austrailia(its a country too)");
+		Iterator iterator = mapA.keySet().iterator();
+		while(iterator.hasNext()){
+			Object key   = iterator.next();
+			Object value = mapA.get(key);
+			System.out.println("My favorite country on " + key +  " this continent is: " + value);
+		}
+
 
 		Set<String> countryList1 = new TreeSet<String>();
-		System.out.println("\f");
+		
 		if(countryList1.isEmpty()) {
 			System.out.println("The best Country Set is empty\n");
 		}
